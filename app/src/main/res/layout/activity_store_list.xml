@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:contentDescription="Store Image"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top|fill"
+                android:layout_marginTop="15dp"
+                android:layout_weight="20"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:fadingEdge="vertical"
+                android:focusable="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="@dimen/cardview_compat_inset_shadow">
+
+                <TextView
+                    android:id="@+id/storePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="5"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:fadingEdge="vertical"
+                    android:focusable="true"
+                    android:gravity="bottom"
+                    android:text="6182028252"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/storeAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+                    android:text="Carbondale"
+                    android:textColor="#78909c"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

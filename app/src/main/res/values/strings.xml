@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shop Around</string>
+    <string name="REST_URL">http://sandbox.bottlerocketapps.com/BR_Android_CodingExam_2015_Server/stores.json</string>
+    <string name="error_dialog">Something glitchy happened. Please try again!</string>
+    <string name="departmental_stores">Departmental Stores</string>
+    <string name="BOTTLE_ROCKET_API_KEY">http://sandbox.bottlerocketapps.com/BR_Android_CodingExam_2015_Server/stores.json</string>
+</resources>
